@@ -12,12 +12,12 @@ public class Player : MonoBehaviour {
     public Vector3 spawnPoint = new Vector3(0, 1, 0);
     public GameObject player;
 
-    // private Rigidbody rb;
+    private Rigidbody rb;
     private int count;
 
     // Use this for initialization
     void Start() {
-        // rb = GetComponent<Rigidbody>();
+        rb = GetComponent<Rigidbody>();
         count = 0;
         SetCountText();
         winText.text = "";
@@ -40,7 +40,7 @@ public class Player : MonoBehaviour {
 
     void SetCountText() {
         countText.text = "Points: " + count.ToString();
-        if (count >= 10) {
+        if (count >= 25) {
             winText.text = "You Win!";
         }
     }

@@ -20188,7 +20188,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 1
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -23452,7 +23452,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh15916
+  m_Name: pb_Mesh17226
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -23728,7 +23728,7 @@ Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: pb_Mesh15752
+  m_Name: pb_Mesh16762
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
